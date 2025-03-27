@@ -1,0 +1,87 @@
+
+body {
+	background-image: url(/Images/backgroundTea.jpg);
+	background-repeat: no-repeat;
+	background-size: 50% 50%; /* Adjust the percentage as desired */
+	overflow: hidden;
+}
+
+.LoginContainer {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 250px; /* Further reduced height */
+}
+
+input {
+	display: block;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	padding: 2px; /* Minimized padding */
+	color: seagreen;
+	font-size: 8px; /* Smaller font size */
+	cursor: pointer;
+	width: 100px; /* Reduced width */
+}
+
+input:hover {
+	transition: 0.3s; /* Shorter transition time */
+	width: 120px; /* Minimized expanded width */
+}
+
+.user {
+	width: 50%;
+	background-color: antiquewhite;
+}
+
+.admin {
+	background: linear-gradient(to right, white, rgb(197, 238, 197));
+	width: 50%;
+}
+
+.user, .admin {
+	font-size: 15px; /* Smaller font size */
+	font-family: sans-serif;
+	letter-spacing: 0.1px;
+	color: lightslategray;
+}
+
+.content {
+	position: relative;
+	left: 80px; /* Further adjusted position */
+	top: 80px; /* Further adjusted position */
+}
+
+strong {
+	border: 1px solid black;
+	padding: 1px; /* Minimum padding */
+	background-color: rgb(128, 64, 64);
+	color: antiquewhite;
+	font-family: sans-serif;
+	border-radius: 1px; /* Minimally rounded corners */
+}
+
+.loginButton {
+	position: relative;
+	left: 20px; /* Adjusted position */
+	border: 1px solid green;
+	cursor: pointer;
+	color: green;
+	font-weight: bold;
+	padding: 1px; /* Minimum padding */
+	width: 40px; /* Reduced width */
+}
+
+.loginButton {
+	width: 60px; /* Smaller expanded width */
+	border-radius: 1px; /* Minimized border-radius */
+	color: antiquewhite;
+	background-color: green;
+	transition: 0.3s; /* Shorter transition time */
+}
+
+.admin h2, .user h2 {
+	margin-top: 0px; /* Minimum margin */
+}
